@@ -24,7 +24,6 @@ const calcFunc = function () {
   } else {
     calculation += this.id;
   }
-  console.log(calculation);
   resultDisplay.textContent = calculation;
 };
 
